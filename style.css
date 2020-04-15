@@ -61,3 +61,21 @@ label {
     font-weight: bolder;
     text-align: center;
 }
+
+#mubashir {
+    background-image: linear-gradient(to right, aqua, orange);
+    text-align: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#hadia {
+    font-weight: bolder;
+    font-size: xx-large;
+    color: black;
+}
+
+#hadia :hover {
+    color: aqua;
+    font
+}
