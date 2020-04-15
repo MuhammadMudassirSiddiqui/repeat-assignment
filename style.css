@@ -75,7 +75,32 @@ label {
     color: black;
 }
 
-#hadia :hover {
+#heighty {
     color: aqua;
-    font
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-image: linearGradient(to right, aqua, red)
+}
+
+#faiq {
+    background-image: linear-gradient(to right, aqua, pink);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+#kashif {
+    background-image: linear-gradient(to right, orange, green);
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#why {
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
 }
