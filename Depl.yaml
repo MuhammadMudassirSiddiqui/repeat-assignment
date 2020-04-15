@@ -1,0 +1,22 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: deployment
+  labels:
+    app: myapp
+spec:
+  replicas: 10
+  selector:
+    matchLabels:
+      app: myapp
+  template:
+    metadata:
+      labels:
+        app: myapp
+    spec:
+      containers:
+      - name: deployment
+        image: mudassir693/job-seeker-applicaton:v2
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 80
